@@ -5,7 +5,12 @@ import { FaInstagram, FaFacebook } from "react-icons/fa";
 const Header = () => {
   return (
     <header>
-      <Navbar bg="dark" variant="dark" expand="md" collapseOnSelect>
+      <Navbar
+        variant="dark"
+        expand="md"
+        collapseOnSelect
+        style={{ background: "#4b0082" }}
+      >
         <Container>
           <img src={logo} alt="TheJoyOfHair" width="50px" height="50px" />
           <Navbar.Brand href="/">The Joy Of Hair</Navbar.Brand>
