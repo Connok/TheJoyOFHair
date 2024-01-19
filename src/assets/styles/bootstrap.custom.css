@@ -72,6 +72,7 @@
   --bs-dark-border-subtle: #7b8a8b;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
+  --bs-purple-rgb: 128, 0, 128;
   --bs-body-color-rgb: 123, 138, 139;
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
@@ -8915,7 +8916,8 @@ fieldset:disabled .btn {
   ) !important;
 }
 .bg-purple {
-  background: purple;
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-purple);
 }
 
 .bg-black {
