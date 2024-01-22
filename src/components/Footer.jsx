@@ -11,8 +11,12 @@ const Footer = () => {
           <Col className="text-center py-3">
             <p>The Joy Of Hair &copy; {currentYear} </p>
             <p>
-              <FaInstagram href="https://www.instagram.com/the.joy.of.hair/" />{" "}
-              <FaFacebook href="https://www.facebook.com/thejoyofhairjoy" />
+              <a href="https://www.instagram.com/the.joy.of.hair/">
+                <FaInstagram />
+              </a>{" "}
+              <a href="https://www.facebook.com/thejoyofhairjoy">
+                <FaFacebook />
+              </a>
             </p>
           </Col>
         </Row>
