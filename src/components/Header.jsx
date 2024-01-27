@@ -1,5 +1,5 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../assets/logo.ico";
+import logo from "../assets/logo.jpg";
 import { FaInstagram, FaFacebook } from "react-icons/fa";
 
 const Header = () => {
